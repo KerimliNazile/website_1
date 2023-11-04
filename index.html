@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+
 
 </head>
 
@@ -40,18 +41,18 @@
             </div>
 
             <div class="nav_info">
-                <ul>
-                    <li><a href=""><i class="fa-solid fa-magnifying-glass nav_search_icon"></i></a></li>
-
-                    <li><a href=""><i class="fa-solid fa-users"></i></a></li>
-                    <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
-                </ul>
-
-
-
-
+                <div class="icons">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-magnifying-glass nav_search_icon"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-users"></i></a></li>
+                        <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    </ul>
+                </div>
             </div>
+
+
+
 
         </div>
         <div class="nav_bottom"></div>
@@ -65,53 +66,95 @@
         </div>
     </div>
     <!-- navbar end -->
+    <!-- header -->
     <header>
-        <div class="navbar">
-            <a href="#home" class="home_main_menu">HOME
-                <div class="home_menu">
-                    <p>Home one</p>
-                    <p>Home two</p>
-                </div>
-            </a>
-            <!-- shop -->
-            <a href="#shop">SHOP
-                <div class="shop_menu">
 
-                </div>
-            </a>
-            <!-- blog -->
-            <a href="#blog" class="blog_main_menu">BLOG
-                <div class="blog_menu">
-                    <p>Blog list view</p>
-                    <p>Blog detail</p>
-                    <p>Multi level dropdown</p>
-                </div>
-            </a>
-
-            <a href="#about">ABOUT US</a>
-            <!-- pages -->
-            <a href="#pages" class="pages_main_menu">PAGES
-                <div class="pages_menu">
-                    <p>FAQ</p>
-                    <p>Error 404</p>
-                </div>
-            </a>
-
-            <a href="#contact">CONTACT US</a>
-        </div>
     </header>
+    <div class="header">
+        <ul>
+            <li>
+                <a href="">Home</a>
+                <ul>
+                    <li>Home One</li>
+                    <li>Home two</li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Shop</a>
+                <div class="listbox">
+                    <ul>
+                        <h3>Shop</h3>
+                        <li>Shop Default</li>
+                        <li>Shop Grid Fullwidth</li>
+                        <li>Shop Right Sidebar</li>
+                        <li>Shop List Fullwidth</li>
+                        <li>Shop List Fullwidth</li>
+                        <li>Shop List Fullwid</li>
+
+                    </ul>
+                    <ul>
+                        <h3>Shop</h3>
+                        <li>Shop Default</li>
+                        <li>Shop Grid Fullwidth</li>
+                        <li>Shop Right Sidebar</li>
+                        <li>Shop List Fullwidth</li>
+                        <li>Shop List Fullwidth</li>
+                        <li>Shop List Fullwid</li>
+                    </ul>
+                    <ul>
+                        <h3>Shop</h3>
+                        <li>Shop Default</li>
+                        <li>Shop Grid Fullwidth</li>
+                        <li>Shop Right Sidebar</li>
+                        <li>Shop List Fullwidth</li>
+                        <li>Shop List Fullwidth</li>
+                        <li>Shop List Fullwid</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="">Blog</a>
+                <ul>
+                    <li>Blog List View</li>
+                    <li>Blog Detail</li>
+                    <li>Multi level dropdown</li>
+                </ul>
+            </li>
+            <li>
+                <a href="">About Us</a>
+                <ul>
+                    <li></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Pages</a>
+                <ul>
+                    <li>FAQ</li>
+                    <li>Error 404</li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Contact Us</a>
+                <ul>
+                    <li></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
     <!-- header end -->
     <!-- section one start -->
-    <section class="section_one">
+    <section class="section_plant">
         <div class="slide_inner">
-            <div class="slide_inner_left">
-                <h3>65% OFF</h3>
-                <h1>NEW PLANT</h1>
-                <h4>Pronia, With 100% Natural,Organic & Plant Shop</h4>
-                <button class="button">DISCOVER NOW</button>
-            </div>
-            <div class="slide_inner_right">
-                <img src="https://htmldemo.net/pronia/pronia/assets/images/slider/inner-img/1-1-524x617.png" alt="">
+            <div class="slider_right_left">
+                <div class="slide_inner_left">
+                    <p>65% OFF</p>
+                    <h1>NEW PLANT</h1>
+                    <p>Pronia, With 100% Natural,Organic & Plant Shop</p>
+                    <button class="button">DISCOVER NOW</button>
+                </div>
+                <div class="slide_inner_right">
+                    <img src="https://htmldemo.net/pronia/pronia/assets/images/slider/inner-img/1-1-524x617.png" alt="">
+                </div>
             </div>
 
         </div>
@@ -120,39 +163,43 @@
     <!--  section one end-->
     <section>
         <div class="container">
-<div class="shipping">
-    <img src="https://htmldemo.net/pronia/pronia/assets/images/shipping/icon/car.png" alt="">
-    <h4>Free Shipping</h4>
-    <p>Capped at $319 per order</p>
-</div>
-<div class="payment">
-    <img src="https://htmldemo.net/pronia/pronia/assets/images/shipping/icon/card.png" alt="">
-    <h4>Safe Payment</h4>
-    <p>With our payment gateway</p>
-</div>
-<div class="services">
-    <img src="https://htmldemo.net/pronia/pronia/assets/images/shipping/icon/service.png" alt="">
-    <h4>Best Services</h4>
-    <p>Friendly & Supper Services</p>
-</div>
+            <div class="shipping">
+                <div class="image_ship">
+                    <img src="https://htmldemo.net/pronia/pronia/assets/images/shipping/icon/car.png" alt="">
+                </div>
+                <h4>Free Shipping</h4>
+                <p>Capped at $319 per order</p>
+            </div>
+            <div class="shipping">
+                <div class="image_ship"></div>
+                <img src="https://htmldemo.net/pronia/pronia/assets/images/shipping/icon/card.png" alt="">
+            </div>
+            <h4>Safe Payment</h4>
+            <p>With our payment gateway</p>
         </div>
-<!-- container end -->
+        <div class="shipping">
+            <div class="image_ship"></div>
+            <img src="https://htmldemo.net/pronia/pronia/assets/images/shipping/icon/service.png" alt="">
+        </div>
+        <h4>Best Services</h4>
+        <p>Friendly & Supper Services</p>
+        </div>
+        </div>
+        <!-- container end -->
         <h2 class="title_product">
-             OUR SERVICES
-            </h2>
-            <!-- container product -->
-            <div class="container_product">
-                <div class="featured">
-                    <p>Featured</p>
-                </div>
-                <div class="bestseller">
-                    <p>Bestseller</p>
-                </div>
-                <div class="latest">
-                    <p>Latest</p>
-                </div>
+            OUR SERVICES
+        </h2>
+        <!-- container product -->
+        <div class="container_product">
+            <div class="featured">
+                <p>Featured</p>
+            </div>
+            <div class="bestseller">
+                <p>Bestseller</p>
+            </div>
+            <div class="latest">
+                <p>Latest</p>
             </div>
         </div>
+        </div>
     </section>
-           
-        
